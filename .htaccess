@@ -1,0 +1,8 @@
+# Turn Rewrite Engine ON
+RewriteEngine on
+
+Options -Multiviews
+# Rewrite for links
+RewriteRule ^nobis/summary nobis/summary.php [NC,L]
+
+
